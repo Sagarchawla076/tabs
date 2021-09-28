@@ -1,0 +1,23 @@
+:root {
+  --color-skyblue: #2caeba;
+  --color-grey: #617d98;
+  --color-grey2: #324d67;
+  --color-grey3: #f1f5f8;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.4rem;
+  background-color: var(--color-grey3);
+}
